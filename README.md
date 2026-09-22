@@ -32,3 +32,11 @@ The QR image is stored locally. Public/CC-licensed reference photos are currentl
 ## Surprise link
 
 `https://cyan-fox-avery.github.io/for-fiona/`
+
+
+## v3.1 patch
+- Fixed the mobile Ottawa weather card so its copy is never clipped.
+- Moved September 1999 decorative artwork behind the text and reduced it on small screens.
+- Reworked Cultural Timeline photos into consistent inset editorial frames; mobile cards now stack images above their copy.
+- Replaced stray blue/yellow timeline treatments with pink, berry, blush, and cream.
+- Expanded sparse Cultural Timeline entries so every item has context beyond a bare date.
