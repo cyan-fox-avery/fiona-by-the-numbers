@@ -1,33 +1,65 @@
-# Fiona by the Numbers (v1)
+# Fiona by the Numbers — v2
 
-This is the first build of **Fiona by the Numbers**, a GitHub Pages birthday website for Fiona's 27th birthday.
+A birthday time capsule for Fiona's 27th birthday.
+
+## v2 changes
+
+- cleaned up the opening copy
+- marked elapsed-time figures with `≈` where an exact birth time would be required
+- removed the generic Fiona-facts section
+- added a large **The Things We Grew Up With** section based on real shared childhood memories
+- added:
+  - Freddi Fish 3
+  - Pajama Sam 2 & 3
+  - Day of the Tentacle
+  - Nintendo DS Lite
+  - Hamsterz
+  - Nintendogs
+  - New Super Mario Bros.
+  - Mario Kart DS
+  - GameCube
+  - Wii
+  - The Simpsons: Hit & Run
+  - Mario Party 7
+  - Dora the Explorer
+  - Zoey 101
+  - The Suite Life of Zack & Cody
+  - High School Musical
+  - Hannah Montana
+  - iCarly
+  - Wizards of Waverly Place
+  - Camp Rock
+  - Victorious
+  - portable CD player / wired headphones
+  - Disney music CDs
+  - Miley Cyrus
+  - Selena Gomez
+  - Mini Pop Kids
+  - Justin Bieber
+  - One Direction
+  - Mamma Mia!
+  - Trixie & Katya / UNHhhh
+- retained a small "bigger world markers" section for Vancouver 2010 and COVID
+- strengthened the visual treatment with media clusters and subtle scroll-in animation
+- preserved the QR code image bytes exactly
 
 ## Files
+
+Upload these to the repository root:
 
 - `index.html`
 - `styles.css`
 - `script.js`
+- `README.md`
+
+Keep this inside the assets folder:
+
 - `assets/qr-code.png`
 
-## Notes
+## Important
 
-- The QR code is included as the exact uploaded image and is displayed unmodified.
-- This v1 build is intentionally **layout-first**. It establishes the overall structure, color palette, responsive grid, and core verified content.
-- A later pass can add:
-  - carefully sourced historical/real images
-  - final personal Fiona-specific fact tiles
-  - a fuller visible source/credits section
-  - any copy/layout refinements after live testing
-
-## Publish steps
-
-1. Upload all files to the root of your repository, keeping `assets/qr-code.png` inside the `assets` folder.
-2. Commit and push.
-3. In GitHub repository settings, enable GitHub Pages from the main branch (root) if needed.
-4. Wait a minute or two for deployment, then open the Pages URL.
-
-## Important link
-
-The QR tile links to:
+The surprise tile links to:
 
 `https://cyan-fox-avery.github.io/for-fiona/`
+
+No repository is modified automatically by this package. Upload/commit manually as usual.
