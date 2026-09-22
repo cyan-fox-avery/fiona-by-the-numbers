@@ -1,65 +1,34 @@
-# Fiona by the Numbers — v2
+# Fiona by the Numbers — v3
 
-A birthday time capsule for Fiona's 27th birthday.
-
-## v2 changes
-
-- cleaned up the opening copy
-- marked elapsed-time figures with `≈` where an exact birth time would be required
-- removed the generic Fiona-facts section
-- added a large **The Things We Grew Up With** section based on real shared childhood memories
-- added:
-  - Freddi Fish 3
-  - Pajama Sam 2 & 3
-  - Day of the Tentacle
-  - Nintendo DS Lite
-  - Hamsterz
-  - Nintendogs
-  - New Super Mario Bros.
-  - Mario Kart DS
-  - GameCube
-  - Wii
-  - The Simpsons: Hit & Run
-  - Mario Party 7
-  - Dora the Explorer
-  - Zoey 101
-  - The Suite Life of Zack & Cody
-  - High School Musical
-  - Hannah Montana
-  - iCarly
-  - Wizards of Waverly Place
-  - Camp Rock
-  - Victorious
-  - portable CD player / wired headphones
-  - Disney music CDs
-  - Miley Cyrus
-  - Selena Gomez
-  - Mini Pop Kids
-  - Justin Bieber
-  - One Direction
-  - Mamma Mia!
-  - Trixie & Katya / UNHhhh
-- retained a small "bigger world markers" section for Vancouver 2010 and COVID
-- strengthened the visual treatment with media clusters and subtle scroll-in animation
-- preserved the QR code image bytes exactly
+Birthday time-capsule site for Fiona's 27th birthday on September 28, 2026.
 
 ## Files
-
-Upload these to the repository root:
 
 - `index.html`
 - `styles.css`
 - `script.js`
-- `README.md`
-
-Keep this inside the assets folder:
-
 - `assets/qr-code.png`
 
-## Important
+Upload all files to the repository root, preserving the `assets` folder.
 
-The surprise tile links to:
+## v3 changes
+
+- Image-driven 6-tile **Your Sky** section (3 across desktop, 2 across mobile)
+- Ottawa General and 2008 Vankleek Hill photography
+- Redesigned **The Cultural Timeline** with Games / TV + Movies / Music / World filters
+- Pre-1999 "Already Waiting for You" strip
+- Shared song-memory and soundtrack cards instead of a wall of copyrighted cover art
+- Expanded music era including Avril, Disney-era music, Shiloh, Aly & AJ, Emily Osment, Bieber, One Direction, and more
+- Tiny anti-`Fireflies` Easter egg
+- Revised September 1999 snapshot
+- Audited weird-stat and future-milestone presentation
+- Image credits drawer in the footer
+- Exact original QR image preserved byte-for-byte
+
+## Important image note
+
+The QR image is stored locally. Public/CC-licensed reference photos are currently loaded from their Wikimedia Commons source URLs rather than duplicated into this package; source and licensing notes are included in the site footer. The small `UNHhhh` contextual still is loaded remotely and credited as a contextual copyrighted show still.
+
+## Surprise link
 
 `https://cyan-fox-avery.github.io/for-fiona/`
-
-No repository is modified automatically by this package. Upload/commit manually as usual.
