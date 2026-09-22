@@ -40,3 +40,11 @@ The QR image is stored locally. Public/CC-licensed reference photos are currentl
 - Reworked Cultural Timeline photos into consistent inset editorial frames; mobile cards now stack images above their copy.
 - Replaced stray blue/yellow timeline treatments with pink, berry, blush, and cream.
 - Expanded sparse Cultural Timeline entries so every item has context beyond a bare date.
+
+
+## v3.2 polish
+- Vertically balanced the Ottawa weather card on small screens.
+- Removed the three redundant hero metadata chips.
+- Lowered the large “95” slightly in the Y2K countdown card on mobile.
+- Moved the portable CD player to the beginning of the 2000s Cultural Timeline.
+- Replaced the personal Mexico-trip note on “Lovesick” with a release/album fact.
