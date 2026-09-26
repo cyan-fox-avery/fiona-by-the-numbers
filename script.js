@@ -30,9 +30,11 @@ if (qrTile) {
   qrTile.setAttribute('role', 'group');
 
   const qrLabel = qrTile.querySelector('.label');
+  const qrTitle = qrTile.querySelector('.qr-copy h3');
   const qrCopy = qrTile.querySelector('.qr-copy p');
 
   if (qrLabel) qrLabel.textContent = 'Scan with your phone';
+  if (qrTitle) qrTitle.remove();
   if (qrCopy) qrCopy.remove();
 }
 
