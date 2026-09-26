@@ -33,7 +33,7 @@ if (qrTile) {
   const qrCopy = qrTile.querySelector('.qr-copy p');
 
   if (qrLabel) qrLabel.textContent = 'Scan with your phone';
-  if (qrCopy) qrCopy.textContent = '27 Things is best opened on mobile.';
+  if (qrCopy) qrCopy.remove();
 }
 
 const revealTargets = document.querySelectorAll('.tile,.photo-card,.sky-tile,.snapshot-card,.timeline-item,.mega-stat,.small-stat,.future-card,.qr-tile,.prelude');
