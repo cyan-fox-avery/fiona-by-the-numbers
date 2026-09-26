@@ -33,3 +33,26 @@
     transform:none !important;
   }
 }
+
+
+/* v3.3 desktop timeline + QR polish */
+@media(min-width:901px){
+  .covid,
+  .covid.reveal,
+  .covid.reveal.visible{
+    transform:none !important;
+  }
+
+  .unhhhh-card img{
+    object-position:center 22%;
+  }
+}
+
+.qr-tile{
+  cursor:default;
+}
+
+.qr-tile:hover{
+  transform:none;
+  box-shadow:var(--shadow);
+}

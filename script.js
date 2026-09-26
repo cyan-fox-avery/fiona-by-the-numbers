@@ -21,6 +21,21 @@ filters.forEach(btn => btn.addEventListener('click', () => {
   });
 }));
 
+const qrTile = document.querySelector('.qr-tile');
+if (qrTile) {
+  qrTile.removeAttribute('href');
+  qrTile.removeAttribute('target');
+  qrTile.removeAttribute('rel');
+  qrTile.removeAttribute('aria-label');
+  qrTile.setAttribute('role', 'group');
+
+  const qrLabel = qrTile.querySelector('.label');
+  const qrCopy = qrTile.querySelector('.qr-copy p');
+
+  if (qrLabel) qrLabel.textContent = 'Scan with your phone';
+  if (qrCopy) qrCopy.textContent = '27 Things is best opened on mobile.';
+}
+
 const revealTargets = document.querySelectorAll('.tile,.photo-card,.sky-tile,.snapshot-card,.timeline-item,.mega-stat,.small-stat,.future-card,.qr-tile,.prelude');
 if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
   revealTargets.forEach(el => el.classList.add('reveal'));
