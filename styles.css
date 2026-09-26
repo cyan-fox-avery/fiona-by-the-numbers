@@ -21,3 +21,15 @@
     margin-top:14px;
   }
 }
+
+/* desktop timeline full-width cards should not inherit the alternating stagger */
+@media(min-width:901px){
+  .rotation-card,
+  .unhhhh-card,
+  .rotation-card.reveal,
+  .rotation-card.reveal.visible,
+  .unhhhh-card.reveal,
+  .unhhhh-card.reveal.visible{
+    transform:none !important;
+  }
+}
